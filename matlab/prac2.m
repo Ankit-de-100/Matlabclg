@@ -1,0 +1,11 @@
+x=round(100*rand(1,70));
+y=1:70;
+%figure(1);
+%s=scatter(x,y,3);
+%xlebel('marks');
+%ylebel('student');
+%ylim([1,100]);
+%figure(2);
+x=y+10;
+h=hist(x,y);
+display(h);

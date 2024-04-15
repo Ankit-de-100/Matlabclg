@@ -1,0 +1,14 @@
+x=round(100*rand(1,70));
+y=round(200*rand(70,1));
+z=x*y;
+%plot(x,y,z);
+%figure(1);
+%xlebel('x')
+%ylebel('y')
+%zlebel('z')
+bar3(z);
+figure(2);
+bar3(x);
+figure(3);
+bar3(y);
+figure(4);
